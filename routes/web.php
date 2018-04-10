@@ -14,6 +14,17 @@
 use App\Post;
 
 Route::get('/', function () {
-    $posts = Post::latest()->get();
+    $posts = Post::where('published', true)
+                    ->latest()->get();
     return view('index', compact('posts'));
 });
+
+Route::get('/admin', 'AdminController@index');
+Route::get('/edit/{post}', 'AdminController@edit');
+Route::patch('/edit/{post}', 'AdminController@update');
+Route::get('/create', 'AdminController@create');
+Route::post('/create', 'AdminController@store');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
