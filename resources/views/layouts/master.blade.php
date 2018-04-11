@@ -11,7 +11,7 @@
 <body>
 <nav class="light-blue">
     <div class="nav-wrapper container">
-        <img src="/unalome.png" height="100%">
+        <img src="/unalome.png" height="90%">
         <a href="/" class="brand-logo">&nbsp;Unalome</a>
     </div>
 </nav>
