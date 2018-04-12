@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,12 +7,17 @@
     <link rel="stylesheet" href="/css/materialize.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Unalome</title>
+    <meta name="description" content="Muchos tenemos la inquietud de ser mejores personas y nos hemos pasado parte de la vida  buscando incansablemente en libros, lugares y personas.
+                    Las búsquedas no cesan sino hasta que comienzan los encuentros y encontrar en la mayoría de los casos sólo es cuestión de abrir los ojos porque la vida
+                    está llena de ejemplos magníficos y los gurús están en muchas personas, incluso en la gente común, está en todas las buenas palabras y actos que se
+                    quedan contigo y te transforman.
+                    Eres bienvenido a compartir la energía de tratar de ser mejor persona"> 
 </head>
 <body>
 <nav class="light-blue">
     <div class="nav-wrapper container">
         <img src="/unalome.png" height="90%">
-        <a href="/" class="brand-logo">&nbsp;Unalome</a>
+        <a href="/" class="brand-logo">Unalome</a>
     </div>
 </nav>
 <main>
