@@ -14,8 +14,7 @@
 use App\Post;
 
 Route::get('/', function () {
-    $posts = Post::where('published', true)
-                    ->latest()->get();
+    $posts = Post::published();
     return view('index', compact('posts'));
 });
 
